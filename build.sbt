@@ -18,5 +18,7 @@ lazy val sueppchen = project.in(file("."))
           ModuleSplitStyle.SmallModulesFor(List("sueppchen")))
     },
 
+    libraryDependencies += "com.raquo" %%% "laminar" % "15.0.1",
+
 
   )
