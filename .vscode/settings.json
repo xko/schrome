@@ -1,0 +1,11 @@
+{
+    "files.watcherExclude": {
+        "**/target": true
+    },
+    "json.schemas": [
+        {
+            "fileMatch": [ "manifest.json" ],
+            "url": "https://json.schemastore.org/chrome-manifest.json"
+        }
+    ]
+}
