@@ -1,4 +1,4 @@
-package sueppchen
+package schrome
 
 import scala.scalajs.js
 import scala.scalajs.js.annotation.*
