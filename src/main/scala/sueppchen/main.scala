@@ -9,7 +9,7 @@ import org.scalajs.dom.document
 
 @main
 def main(): Unit = {
-    renderOnDomContentLoaded( document.getElementById("app"), sueppchen )
+    renderOnDomContentLoaded( document.getElementById("app"), sueppchen("GURKEN") )
 }
 
-def sueppchen = div(h1("SÜPPCHEN!!"))
+def sueppchen(mit: String) = div(h1(s"SÜPPCHEN mit $mit!!"))
